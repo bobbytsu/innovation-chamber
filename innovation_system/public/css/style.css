@@ -1,0 +1,662 @@
+html {
+    overflow-x: hidden;
+  }
+
+body {
+  background-image: url(../data/asset/letter-1546832_1280.png), linear-gradient(90deg, #5b86e5, #36d1dc);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Navbar */
+
+.navbar {
+    border-bottom: 1px solid lightgray;
+    transition: top 0.8s;
+}
+
+.navbar .collapse .navbar-nav .nav-item .tombol-sign:hover {
+    background-color: #fe840e;
+    border-color: #fe840e;
+}
+
+/* Landing */
+
+.landing {
+    margin-bottom: 100px;
+}
+
+.landing .welcome .display-4 {
+    color: white;
+    margin-top: 180px;
+    font-size: 40px;
+}
+
+.landing .welcome .lead, span {
+    color: white;
+}
+
+.landing .welcome .display-4, .lead {
+    text-align: center;
+}
+
+.landing .welcome .card {
+    margin-top: 30px;
+    border-radius: 0;
+}
+
+.landing .welcome .card .card-body .popular-list .media {
+    margin-top: 10px;
+}
+
+.landing .welcome .card .card-body .popular-list .media .rank{
+    margin-right: 10px;
+}
+
+.landing .welcome .card .card-body .popular-list .media .media-body h6 {
+    margin-bottom: 0px;
+}
+
+.landing .welcome .card .card-body .popular-list .media .media-body p {
+    margin-bottom: 0px;
+}
+
+/* Login */
+
+.login {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.login .card-body .btn:hover {
+    background-color: #fe840e;
+    border-color: #fe840e;
+}
+
+/* Forgot Password */
+
+.forgot-password {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Register */
+
+.register {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.register .card-body .btn:hover {
+    background-color: #fe840e;
+    border-color: #fe840e;
+}
+
+/* Submit */
+
+.submit-idea {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+/* Section Title */
+
+.section-title {
+    text-align: center;
+}
+
+.section-title .display-4 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    display: inline-block;
+    background: rgb(0, 0, 0, .5);
+    padding: 4px 4px;
+    border-radius: 10px;
+}
+
+/* Carousel */
+
+.top-season {
+    background: white;
+    margin-bottom: 140px;
+}
+
+.top-season .carousel {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.top-season .carousel .display-4 {
+    font-size: 25px;
+}
+
+.top-season .carousel .carousel-inner .carousel-item .display-4 {
+    font-weight: 400;
+}
+
+.top-season .carousel .carousel-inner .carousel-item .card-deck .card .card-body h6 {
+    margin-bottom: 0px;
+}
+
+.top-season .carousel .carousel-inner .carousel-item .card-deck {
+    padding: 10px 50px;
+}
+
+.top-season .carousel .carousel-control {
+	height: 44px;
+	width: 40px;
+	background: #0275d8;	
+    margin: auto 0px;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+
+.top-season .carousel .carousel-control:hover {
+	background: #f0ad4e;
+	opacity: 1;
+}
+
+.top-season .carousel .carousel-control i {
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -19px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: #fff;
+	text-shadow: none;
+    font-weight: bold;
+}
+
+.top-season .carousel .carousel-control.left i {
+	margin-left: -2px;
+}
+
+.top-season .carousel .carousel-control.right i {
+	margin-right: -4px;
+}
+
+.top-season .carousel .carousel-indicators {
+	bottom: -40px;
+}
+
+.top-season .carousel .carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 4px;
+	border-radius: 50%;
+	border: none;
+}
+
+.top-season .carousel .carousel-indicators li {	
+    background: #0275d8;
+    opacity: 0.2;
+}
+
+.top-season .carousel .carousel-indicators li.active {	
+    background: #f0ad4e;
+    opacity: 0.6;
+}
+
+/* video-agenda */
+
+.video-agenda {
+    margin-bottom: 100px;
+}
+
+.video-agenda .card .thumbnail-card .thumbnail {
+    position: relative;    
+  }
+  
+.video-agenda .card .thumbnail-card .thumbnail .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: .3s ease;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.video-agenda .card .thumbnail-card:hover .thumbnail .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.video-agenda .card .thumbnail-card .thumbnail .overlay .fa-play {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    transition: .3s ease;
+    opacity: 0;
+}
+
+.video-agenda .card .thumbnail-card:hover .thumbnail .overlay .fa-play {
+    opacity: 1;
+}
+
+.video-agenda .card .thumbnail-card .thumbnail .overlay .fa-play:hover {
+    color: #eee;
+}
+
+/* Event */
+
+.add-event {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fc-button-group button span {
+    color: black;
+}
+
+.fc-popover .fc-header .fc-title {
+    color: black;
+}
+
+.fc-popover .fc-body .fc-title {
+    color: white;
+}
+
+.ui-datepicker-month, .ui-datepicker-year, .ui-datepicker th span {
+    color: black;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+}
+
+.footer .logo {
+    margin-top: 50px;
+    padding-right: 20px;
+
+}
+
+.footer .footer-copyright {
+    font-size: 14px;
+}
+
+/* Credits */
+
+.credits {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Bank Of Idea */
+
+.bank-of-idea {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.bank-of-idea .table {
+    background-color: white;
+    text-align: center;
+}
+
+.bank-of-idea .table thead {
+    background-image: linear-gradient(90deg, #dd2476, #ff512f);
+    color: white;
+}
+
+/* Article */
+
+.article {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.article .card .post-picture img {
+    width: 100%;
+    height: auto;
+}
+
+.article .card .idea-modal {
+    border-radius: 10%;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+.article .card .contact-picture {
+    text-align: center;
+}
+
+/* Edit Idea */
+
+.edit-idea {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.edit-idea .edit-idea-card {
+    border-radius: 0%;
+}
+
+.edit-idea .edit-idea-card form h5 {
+    text-transform: uppercase;
+}
+
+/* Knowledge System */
+
+.knowledge-system {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.knowledge-system .card .thumbnail-card .thumbnail {
+    position: relative;    
+  }
+  
+.knowledge-system .card .thumbnail-card .thumbnail .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: .3s ease;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.knowledge-system .card .thumbnail-card:hover .thumbnail .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.knowledge-system .card .thumbnail-card .thumbnail .overlay .fa-play {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    transition: .3s ease;
+    opacity: 0;
+}
+
+.knowledge-system .card .thumbnail-card:hover .thumbnail .overlay .fa-play {
+    opacity: 1;
+}
+
+.knowledge-system .card .thumbnail-card .thumbnail .overlay .fa-play:hover {
+    color: #eee;
+}
+
+/* Upload */
+
+.upload-video {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+/* Video */
+
+.video {
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+  
+.video .card video {
+    height: 200px;
+}
+
+.video .card .video-profile-picture {
+    margin-right: 20px;
+}
+
+.video .card .thumbnail-card .thumbnail {
+    position: relative;    
+  }
+  
+.video .card .thumbnail-card .thumbnail .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: .3s ease;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.video .card .thumbnail-card:hover .thumbnail .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.video .card .thumbnail-card .thumbnail .overlay .fa-play {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    transition: .3s ease;
+    opacity: 0;
+}
+
+.video .card .thumbnail-card:hover .thumbnail .overlay .fa-play {
+    opacity: 1;
+}
+
+.video .card .thumbnail-card .thumbnail .overlay .fa-play:hover {
+    color: #eee;
+}
+
+/* Edit Upload */
+
+.edit-upload {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+/* Comment */
+
+.comment-list {
+    margin-top: 80px;
+}
+
+/* Edit Comment */
+
+.edit-comment {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* About */
+
+.about {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+/* Profile */
+
+.profile {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.profile .profile-card {
+    border-radius: 0%;
+}
+
+.profile .profile-card .profile-picture {
+    text-align: center;
+}
+
+.profile .profile-card .profile-picture img {
+    width:200px;
+    height:200px;
+    object-fit:cover;
+}
+
+.profile .profile-card .thumbnail-card .thumbnail {
+    position: relative;    
+}
+  
+.profile .profile-card .thumbnail-card .thumbnail .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: .3s ease;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.profile .profile-card .thumbnail-card:hover .thumbnail .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1%;
+}
+
+.profile .profile-card .thumbnail-card .thumbnail .overlay .fa-play {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    transition: .3s ease;
+    opacity: 0;
+}
+
+.profile .profile-card .thumbnail-card:hover .thumbnail .overlay .fa-play {
+    opacity: 1;
+}
+
+.profile .profile-card .thumbnail-card .thumbnail .overlay .fa-play:hover {
+    color: #eee;
+}
+
+/* Edit Profile */
+
+.edit-profile {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+/* Change Password */
+
+.change-password {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.delete-account-modal {
+    border-radius: 10%;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+/* Utility */
+
+.landing .welcome .tombol {
+    text-transform: uppercase;
+    background-color: #fe840e;
+    color: white;
+    border-color: #fe840e;
+    border-radius: 0px;
+}
+
+.landing .welcome .tombol-alignment {
+    text-align: center;
+}
+
+.submit-idea .submit-idea-card a, .tombol-submit {
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+.like {
+    background:#0275d8;
+    border-color: #0275d8;
+}
+
+.like:hover {
+    background:#f0ad4e;
+    border-color: #f0ad4e;
+}
+
+.liked {
+    color:#0275d8;
+}
+
+.liked:hover {
+    color:#f0ad4e;
+}
+
+.edit-idea .edit-idea-card a, .tombol-edit {
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+/* Desktop Version */
+
+@media (min-width: 992px) {
+
+    .navbar .collapse .nav-item {
+        margin-left: 30px;
+    }
+
+    .landing {
+        margin-top: 60px;
+        height: 600px;
+    }
+
+    .landing .welcome {
+        margin-top: 60px;
+    }
+
+    .landing .welcome .display-4 {
+        font-size: 50px;
+    }
+
+    .landing .welcome .display-4, .lead{
+        text-align: left;
+    }
+
+    .landing .welcome .tombol-alignment {
+        text-align: left;
+    }
+
+    .section-title .display-4 {
+        font-size: 30px;
+    }
+    
+    .top-season .carousel .carousel-inner .carousel-item .display-4 {
+        font-weight: 400;
+    }
+
+    .footer .logo {
+        margin-top: 50px;
+        padding-right: 100px;
+    }
+
+    .footer .footer-copyright {
+        font-size: 18px;
+    }
+
+    .video .card video {
+        height: 400px;
+    }
+
+    .video .card .video-profile-picture {
+        margin-right: 0px;
+    }
+
+    .video .card .suggestion {
+        padding-left: 0px;
+    }
+}
